@@ -1,0 +1,36 @@
+div{
+	display: inline-block;
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+	margin: -2px;
+		
+}
+.grid-container {
+  align-content: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  
+}
+.grid-vermelho {
+  background-color: red;
+  
+}
+.grid-azul {
+  background-color: blue;
+  
+}
+.grid-verde {
+  background-color: green;
+  
+}
+.grid-amarelo {
+  background-color: yellow;
+  
+}
+.borda-preta {
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+footer{
+  font-size: 8px;
+}
